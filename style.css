@@ -31,36 +31,6 @@
   --dl-radius-radius-buttonradius: 24px;
   --dl-space-space-oneandhalfunits: 24px;
 }
-/* Default styles for larger screens */
-body {
-  font-size: 16px;
-  margin: 20px;
-}
-
-/* For tablets and small desktops (768px and below) */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-    margin: 10px;
-  }
-}
-
-/* For mobile devices (480px and below) */
-@media (max-width: 480px) {
-  body {
-    font-size: 12px;
-    margin: 5px;
-  }
-
-  /* Example: Stacking columns for mobile */
-  .row {
-    flex-direction: column;
-  }
-
-  .header {
-    text-align: center;
-  }
-}
 .button {
   color: var(--dl-color-theme-neutral-dark);
   display: inline-block;
